@@ -22,7 +22,7 @@ public class Movie {
     public Movie(){
     }
 
-    public Movie(Long id, String title, Double score, Integer cont, String image) {
+    public Movie(Long id, String title, Double score, Integer count, String image) {
         this.id = id;
         this.title = title;
         this.score = score;
@@ -58,7 +58,7 @@ public class Movie {
         return count;
     }
 
-    public void setCount(Integer cont) {
+    public void setCount(Integer count) {
         this.count = count;
     }
 
