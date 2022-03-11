@@ -13,8 +13,8 @@ public class ScoreDTO {
         return movieId;
     }
 
-    public void setMovieId(Long id) {
-        this.movieId = id;
+    public void setMovieId(Long movieId) {
+        this.movieId = movieId;
     }
 
     public String getEmail() {
